@@ -19,12 +19,3 @@ This is a simple CRUD (Create, Read, Update, Delete) application for managing us
 - H2 Database (for development and testing)
 - Maven
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-- Java 17 or higher
-- Maven
-- Git
