@@ -28,10 +28,11 @@ public class UserController {
         return this.userService.getUserById(id);
     }
 
-    @PutMapping
+    @PutMapping(path= "/{id}")
     public UserModel updateUserById(@RequestBody UserModel request, @PathVariable Long id){
         return this.userService.updateById(request, id);
     }
+
     @DeleteMapping(path="/{id}")
     public String deleteById(@PathVariable Long id){
         boolean ok= this.userService.deleteUser(id);
